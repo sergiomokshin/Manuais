@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="metal" patternUnits="userSpaceOnUse" width="2" height="2">
+      <rect width="2" height="2" fill="#C0C0C0"/>
+      <rect width="1" height="1" fill="#E0E0E0"/>
+    </pattern>
+  </defs>
+  
+  <!-- Title -->
+  <text x="300" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">
+    Sistema de Trilhos para Portas de Correr
+  </text>
+  
+  <!-- Upper Rail System -->
+  <g id="upper-rail">
+    <text x="50" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Trilho Superior
+    </text>
+    
+    <!-- Rail Track -->
+    <rect x="100" y="80" width="400" height="15" fill="url(#metal)" stroke="#000" stroke-width="1"/>
+    <rect x="100" y="85" width="400" height="5" fill="#888" stroke="#000" stroke-width="1"/>
+    
+    <!-- Rail mounting holes -->
+    <circle cx="130" cy="87.5" r="2" fill="#333"/>
+    <circle cx="170" cy="87.5" r="2" fill="#333"/>
+    <circle cx="230" cy="87.5" r="2" fill="#333"/>
+    <circle cx="290" cy="87.5" r="2" fill="#333"/>
+    <circle cx="350" cy="87.5" r="2" fill="#333"/>
+    <circle cx="410" cy="87.5" r="2" fill="#333"/>
+    <circle cx="470" cy="87.5" r="2" fill="#333"/>
+    
+    <!-- Rail dimensions -->
+    <line x1="100" y1="110" x2="500" y2="110" stroke="#000" stroke-width="1" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)"/>
+    <text x="300" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#000">400cm (largura interna)</text>
+    
+    <!-- Rollers/wheels -->
+    <circle cx="200" cy="105" r="8" fill="#FFD700" stroke="#000" stroke-width="1"/>
+    <circle cx="220" cy="105" r="8" fill="#FFD700" stroke="#000" stroke-width="1"/>
+    <circle cx="320" cy="105" r="8" fill="#FFD700" stroke="#000" stroke-width="1"/>
+    <circle cx="340" cy="105" r="8" fill="#FFD700" stroke="#000" stroke-width="1"/>
+    
+    <text x="210" y="130" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#000">Roldanas Porta 1</text>
+    <text x="330" y="130" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#000">Roldanas Porta 2</text>
+  </g>
+  
+  <!-- Door representation -->
+  <g id="doors">
+    <text x="50" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Portas de Correr
+    </text>
+    
+    <!-- Door 1 -->
+    <rect x="150" y="140" width="150" height="200" fill="#8B4513" stroke="#000" stroke-width="2" opacity="0.7"/>
+    <text x="225" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#FFF">
+      Porta 1
+    </text>
+    <text x="225" y="260" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#FFF">
+      200cm x 150cm
+    </text>
+    
+    <!-- Door 2 -->
+    <rect x="280" y="140" width="150" height="200" fill="#654321" stroke="#000" stroke-width="2" opacity="0.7"/>
+    <text x="355" y="245" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#FFF">
+      Porta 2
+    </text>
+    <text x="355" y="260" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#FFF">
+      200cm x 150cm
+    </text>
+    
+    <!-- Door handles -->
+    <circle cx="290" cy="240" r="4" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+    <circle cx="300" cy="240" r="4" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+  </g>
+  
+  <!-- Lower Rail System -->
+  <g id="lower-rail">
+    <text x="50" y="380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Trilho Inferior (Guia)
+    </text>
+    
+    <!-- Lower rail guide -->
+    <rect x="100" y="360" width="400" height="8" fill="url(#metal)" stroke="#000" stroke-width="1"/>
+    <rect x="100" y="365" width="400" height="3" fill="#666"/>
+    
+    <!-- Guide channels -->
+    <rect x="140" y="362" width="120" height="4" fill="#333"/>
+    <rect x="270" y="362" width="120" height="4" fill="#333"/>
+    
+    <text x="200" y="380" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#000">Canal Porta 1</text>
+    <text x="330" y="380" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#000">Canal Porta 2</text>
+  </g>
+  
+  <!-- Installation notes -->
+  <g id="notes">
+    <text x="50" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">
+      Especificações Técnicas:
+    </text>
+    <text x="50" y="440" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Trilho superior: Alumínio anodizado, suporta até 100kg por porta
+    </text>
+    <text x="50" y="455" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Roldanas: Nylon com rolamento de esferas, diâmetro 16mm
+    </text>
+    <text x="50" y="470" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Trilho inferior: Guia em alumínio, altura 8mm
+    </text>
+    <text x="50" y="485" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Distância entre furos de fixação: 40cm
+    </text>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+    </marker>
+  </defs>
+</svg>

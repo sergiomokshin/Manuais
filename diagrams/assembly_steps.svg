@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="wood" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#D2B48C"/>
+      <path d="m0,4l4,-4m-2,4l4,-4m-6,4l4,-4" stroke="#8B7D6B" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">
+    Sequência de Montagem do Armário
+  </text>
+  
+  <!-- Step 1: Base Assembly -->
+  <g id="step1">
+    <text x="100" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Passo 1: Montagem da Base
+    </text>
+    
+    <rect x="50" y="80" width="150" height="20" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <text x="125" y="95" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#000">Base</text>
+    
+    <!-- Side panels -->
+    <rect x="40" y="70" width="10" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="200" y="70" width="10" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    
+    <!-- Screws indication -->
+    <circle cx="60" cy="85" r="2" fill="#FF0000"/>
+    <circle cx="190" cy="85" r="2" fill="#FF0000"/>
+    
+    <text x="125" y="115" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">
+      Fixar laterais à base com parafusos 4x50mm
+    </text>
+  </g>
+  
+  <!-- Step 2: Side Panels -->
+  <g id="step2">
+    <text x="350" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Passo 2: Laterais e Fundo
+    </text>
+    
+    <!-- Structure with back panel -->
+    <rect x="300" y="80" width="150" height="20" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="290" y="70" width="10" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="450" y="70" width="10" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    
+    <!-- Back panel -->
+    <rect x="300" y="75" width="150" height="20" fill="#F5F5DC" stroke="#666" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="375" y="87" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#666">Fundo MDF 3mm</text>
+    
+    <text x="375" y="115" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">
+      Instalar painel de fundo com grampos
+    </text>
+  </g>
+  
+  <!-- Step 3: Top Panel -->
+  <g id="step3">
+    <text x="600" y="60" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Passo 3: Tampo Superior
+    </text>
+    
+    <!-- Complete structure -->
+    <rect x="550" y="70" width="150" height="10" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="550" y="80" width="150" height="20" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="540" y="70" width="10" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="700" y="70" width="10" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    
+    <!-- Screws -->
+    <circle cx="560" cy="75" r="2" fill="#FF0000"/>
+    <circle cx="690" cy="75" r="2" fill="#FF0000"/>
+    
+    <text x="625" y="115" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">
+      Fixar tampo com parafusos 4x50mm
+    </text>
+  </g>
+  
+  <!-- Step 4: Rail Installation -->
+  <g id="step4">
+    <text x="150" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Passo 4: Instalação dos Trilhos
+    </text>
+    
+    <!-- Complete structure with rails -->
+    <rect x="50" y="190" width="200" height="15" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="50" y="205" width="200" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="40" y="190" width="15" height="45" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="250" y="190" width="15" height="45" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    
+    <!-- Rails -->
+    <rect x="55" y="200" width="190" height="3" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+    <rect x="55" y="232" width="190" height="3" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+    
+    <text x="80" y="195" font-family="Arial, sans-serif" font-size="8" fill="#FF0000">Trilho Superior</text>
+    <text x="80" y="245" font-family="Arial, sans-serif" font-size="8" fill="#FF0000">Trilho Inferior</text>
+    
+    <text x="150" y="255" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">
+      Instalar trilhos com parafusos apropriados
+    </text>
+  </g>
+  
+  <!-- Step 5: Door Installation -->
+  <g id="step5">
+    <text x="450" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Passo 5: Instalação das Portas
+    </text>
+    
+    <!-- Complete wardrobe with doors -->
+    <rect x="350" y="190" width="200" height="15" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="350" y="205" width="200" height="30" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="340" y="190" width="15" height="45" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    <rect x="550" y="190" width="15" height="45" fill="url(#wood)" stroke="#000" stroke-width="1"/>
+    
+    <!-- Rails -->
+    <rect x="355" y="200" width="190" height="3" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+    <rect x="355" y="232" width="190" height="3" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+    
+    <!-- Doors -->
+    <rect x="370" y="205" width="80" height="27" fill="#8B4513" stroke="#000" stroke-width="1" opacity="0.8"/>
+    <rect x="430" y="205" width="80" height="27" fill="#654321" stroke="#000" stroke-width="1" opacity="0.8"/>
+    
+    <!-- Door handles -->
+    <circle cx="440" cy="218" r="2" fill="#C0C0C0"/>
+    <circle cx="450" cy="218" r="2" fill="#C0C0C0"/>
+    
+    <text x="450" y="255" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">
+      Encaixar portas nos trilhos e ajustar
+    </text>
+  </g>
+  
+  <!-- Tools needed -->
+  <g id="tools">
+    <text x="100" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Ferramentas Necessárias:
+    </text>
+    
+    <!-- Drill -->
+    <rect x="50" y="340" width="40" height="8" fill="#FFD700" stroke="#000" stroke-width="1"/>
+    <circle cx="95" cy="344" r="4" fill="#333"/>
+    <text x="120" y="348" font-family="Arial, sans-serif" font-size="10" fill="#333">Furadeira</text>
+    
+    <!-- Screwdriver -->
+    <rect x="50" y="360" width="30" height="3" fill="#FF6B6B" stroke="#000" stroke-width="1"/>
+    <rect x="80" y="358" width="8" height="7" fill="#333" stroke="#000" stroke-width="1"/>
+    <text x="120" y="364" font-family="Arial, sans-serif" font-size="10" fill="#333">Chave de Fenda</text>
+    
+    <!-- Level -->
+    <rect x="50" y="380" width="50" height="5" fill="#4ECDC4" stroke="#000" stroke-width="1"/>
+    <circle cx="75" cy="382.5" r="1" fill="#333"/>
+    <text x="120" y="385" font-family="Arial, sans-serif" font-size="10" fill="#333">Nível</text>
+    
+    <!-- Measuring tape -->
+    <circle cx="65" cy="405" r="10" fill="#FFA500" stroke="#000" stroke-width="1"/>
+    <rect x="75" y="400" width="20" height="2" fill="#FFD700"/>
+    <text x="120" y="408" font-family="Arial, sans-serif" font-size="10" fill="#333">Trena</text>
+  </g>
+  
+  <!-- Hardware list -->
+  <g id="hardware">
+    <text x="350" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      Parafusos e Ferragens:
+    </text>
+    
+    <text x="350" y="340" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • 16x Parafusos 4x50mm (estrutura)
+    </text>
+    <text x="350" y="355" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • 8x Parafusos 3x25mm (trilhos)
+    </text>
+    <text x="350" y="370" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • 4x Roldanas 16mm (portas)
+    </text>
+    <text x="350" y="385" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • 100x Grampos 6mm (fundo)
+    </text>
+    <text x="350" y="400" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • 2x Puxadores de porta
+    </text>
+  </g>
+  
+  <!-- Safety tips -->
+  <g id="safety">
+    <text x="100" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF0000">
+      ⚠️ Dicas de Segurança:
+    </text>
+    
+    <text x="100" y="480" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Use sempre óculos de proteção ao furar
+    </text>
+    <text x="100" y="495" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Trabalhe em dupla para levantar peças pesadas
+    </text>
+    <text x="100" y="510" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Verifique o nível em cada etapa
+    </text>
+    <text x="100" y="525" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      • Teste as portas antes de finalizar
+    </text>
+  </g>
+  
+  <!-- Time estimate -->
+  <g id="time">
+    <text x="450" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+      ⏱️ Tempo Estimado: 4-6 horas
+    </text>
+    
+    <text x="450" y="480" font-family="Arial, sans-serif" font-size="10" fill="#333">
+      (Considerando 2 pessoas trabalhando)
+    </text>
+  </g>
+</svg>
